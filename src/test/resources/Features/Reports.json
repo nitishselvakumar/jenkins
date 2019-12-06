@@ -1,0 +1,417 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2498100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User on the login page",
+            "match": {
+              "location": "StepDefinition.user_on_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-12-05T13:30:28.944Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7060545300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeExecution()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Verify the login functionality with invalid credantials",
+        "description": "",
+        "id": "verify-the-facebook-home-page;verify-the-login-functionality-with-invalid-credantials",
+        "after": [
+          {
+            "result": {
+              "duration": 849732100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 363814600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters username  and password",
+            "match": {
+              "location": "StepDefinition.user_enters_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2735934900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks login button",
+            "match": {
+              "location": "StepDefinition.user_clicks_login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1318100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User on the login page",
+            "match": {
+              "location": "StepDefinition.user_on_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-12-05T13:30:40.047Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6635996600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeExecution()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Verify the signup functionality with invalid credantials",
+        "description": "",
+        "id": "verify-the-facebook-home-page;verify-the-signup-functionality-with-invalid-credantials",
+        "after": [
+          {
+            "result": {
+              "duration": 1067185000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#u_0_\"}\n  (Session info: chrome\u003d78.0.3904.108)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-5HSOAKBP\u0027, ip: \u0027192.168.0.195\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\\Users\\k_sur\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54579}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: e559c96332e476d762aa4a7fb036cfd3\n*** Element info: {Using\u003did, value\u003du_0_}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy18.sendKeys(Unknown Source)\r\n\tat org.libglobal.BaseClass.type(BaseClass.java:47)\r\n\tat com.stepdefinition.StepDefinition.user_enters_fname_and_lname(StepDefinition.java:44)\r\n\tat ✽.User enters fname and lname(file:src/test/resources/Features/facebook.feature:13)\r\n",
+              "duration": 101575500,
+              "status": "failed"
+            },
+            "line": 13,
+            "name": "User enters fname and lname",
+            "match": {
+              "location": "StepDefinition.user_enters_fname_and_lname()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 649700,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "User click signup button",
+            "match": {
+              "location": "StepDefinition.user_click_signup_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 449300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User on the login page",
+            "match": {
+              "location": "StepDefinition.user_on_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-12-05T13:30:47.873Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6703798000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeExecution()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Verify the login functionality with in valid credantials using 1d datatable",
+        "description": "",
+        "id": "verify-the-facebook-home-page;verify-the-login-functionality-with-in-valid-credantials-using-1d-datatable",
+        "after": [
+          {
+            "result": {
+              "duration": 1167287700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 391083100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enters username  and password for 1d",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 39
+                }
+              ],
+              "location": "StepDefinition.user_enters_username_and_password_for_d(Integer,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "nitish11198@gmail.com",
+                  "34567867"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2348771700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User clicks login button",
+            "match": {
+              "location": "StepDefinition.user_clicks_login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 611800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User on the login page",
+            "match": {
+              "location": "StepDefinition.user_on_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-12-05T13:30:58.488Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6649054700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeExecution()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Verify the login functionality with invalid credantials using 2d datatable",
+        "description": "",
+        "id": "verify-the-facebook-home-page;verify-the-login-functionality-with-invalid-credantials-using-2d-datatable",
+        "after": [
+          {
+            "result": {
+              "duration": 732290600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 425797800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User enters username  and password for 2d without header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 39
+                }
+              ],
+              "location": "StepDefinition.user_enters_username_and_password_for_d_without_header(Integer,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "nitish@gmail.com",
+                  "4638798"
+                ]
+              },
+              {
+                "cells": [
+                  "arun@gmail.com",
+                  "#$%^\u0026*"
+                ]
+              }
+            ],
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Verify the facebook home page",
+    "description": "",
+    "id": "verify-the-facebook-home-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/facebook.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-12-05T13:31:06.300Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6726998000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeExecution()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Verify the login page with invalid creadentials",
+        "description": "",
+        "id": "verify-the-faceebook-login-page-with-excel-inputs;verify-the-login-page-with-invalid-creadentials",
+        "after": [
+          {
+            "result": {
+              "duration": 769104100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#email\"}\n  (Session info: chrome\u003d78.0.3904.108)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-5HSOAKBP\u0027, ip: \u0027192.168.0.195\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\\Users\\k_sur\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54678}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: dfe7eb75c0a81efa9ac233cd7ba6568d\n*** Element info: {Using\u003did, value\u003demail}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy18.sendKeys(Unknown Source)\r\n\tat org.libglobal.BaseClass.type(BaseClass.java:47)\r\n\tat com.stepdefinition.StepDefinition.user_enters_the_username_and_password(StepDefinition.java:79)\r\n\tat ✽.User enters the username and password(file:src/test/resources/Features/facebookxl.feature:4)\r\n",
+              "duration": 925849700,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "User enters the username and password",
+            "match": {
+              "location": "StepDefinition.user_enters_the_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 630100,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "User clicks the login button",
+            "match": {
+              "location": "StepDefinition.user_clicks_the_login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "verify the faceebook login page with Excel inputs",
+    "description": "",
+    "id": "verify-the-faceebook-login-page-with-excel-inputs",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/facebookxl.feature",
+    "tags": []
+  }
+]
